@@ -1,6 +1,6 @@
-console.log("Lisa Bamberg".toUpperCase());
-console.log("Frontend software developer");
-console.log("I am from Birmingham, AL. I am currently attending Innovate Bham's Full Stack Software Development course.");
+console.log("Name:" + " Lisa Bamberg".toUpperCase());
+console.log("Career: Frontend software developer");
+console.log("Description: I am from Birmingham, AL. I am currently attending Innovate Bham's Full Stack Software Development course.");
 console.log("My Interests:\n Technology \n Art \n Culture");
 console.log("My Previous Experience:");
 
@@ -14,7 +14,7 @@ console.log("My skills:");
 
 function displaySkill(name, bool) {
     if (bool == true) {
-        console.log("BAM:" + name);
+        console.log("BAM: " + name);
     } else {
         console.log(name);
     }
