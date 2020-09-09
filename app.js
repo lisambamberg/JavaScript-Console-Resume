@@ -8,18 +8,18 @@ function displayPosition(name, title, description) {
     return name + title + description;
 }
 console.log(displayPosition("RxBenefits - ", "Data Integration Analysis - ", "Integrated client's data into database"));
-console.log(displayPosition("UAB Computer Science Camp - ", "Facilitor - ", "Assisted in teaching kids computer science"))
+console.log(displayPosition("UAB Computer Science Camp - ", "Facilitor - ", "Assisted in teaching kids computer science"));
 
 console.log("My skills:");
 
-function displaySkill(name, bool) {
+function displaySkill(skill, bool) {
     if (bool == true) {
-        console.log("BAM: " + name);
-    } else {
-        console.log(name);
+        return "BAM: " + skill;
+    }  else {
+        return skill;
     }
 }
-let skills1 = displaySkill("JavaScript", false);
-let skills2 = displaySkill("HTML/CSS", false);
-let skills3 = displaySkill("Violin", true);
-let skills4 = displaySkill("Drawing", true);
+console.log(displaySkill("JavaScript", false));
+console.log(displaySkill("HTML/CSS", false));
+console.log(displaySkill("Violin", true));
+console.log(displaySkill("Drawing", true));
